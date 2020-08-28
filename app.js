@@ -4,6 +4,8 @@ import dotenv from 'dotenv';
 
 import { studentRouter } from './routes/studentRouter.js';
 
+dotenv.config();
+
 //Conecta ao MongoDB pelo Mongoose
 (async () => {
   try {
