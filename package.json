@@ -1,10 +1,11 @@
 {
   "name": "03-api-crud-mongoose",
   "version": "1.0.0",
-  "description": "Aula 02 exercício 03 do módulo 4 bootcamp IGTI Desenvolvedor Fullstack",
+  "description": "IGTI - Bootcamp Desenvolvedor Full Stack - Módulo 4 - Aula 02 - Exercício 03",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
+    "start-dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
@@ -21,5 +22,5 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "repository": "github.com:jdiefenbach83/aula-02-03-api-crud-mongoose.git"
+  "repository": "github.com:jdiefenbach83/m4-aula-02-03-api-crud-mongoose.git"
 }
